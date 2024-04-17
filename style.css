@@ -1,0 +1,532 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    overflow-x: hidden; /*così il sito non si muove a dx e sx*/
+    max-width: 100%;
+    background-color: white;
+    
+    
+    
+}
+
+/*BARRA DI NAVIGAZIONE*/
+
+#navbar {
+    text-align: center;
+    font-family: 'Inter Tight', arial, sans-serif;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+}
+
+#navbar ul li {
+    display: inline;
+}
+
+.linkmenu {
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    display: inline;
+    padding: 1rem 3rem 1rem 3rem;
+    cursor: pointer;
+    margin-inline: 0.5rem;
+    font-weight: 800;
+}
+
+
+.linkmenu:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+.linkmenu:hover {
+    color: white;
+    background-color: rgb(75, 73, 73);
+}
+
+#imhere {
+    color: white;
+    background-color: rgb(38, 36, 36);
+}
+
+
+#logo {
+    width: 10rem;
+}
+
+/*HOMEPAGE*/
+
+#bannerhomepage {
+    font-family: 'Inter Tight', arial, sans-serif;
+    background: url("Immagini/bannermodificato.png") center/cover no-repeat;
+    text-align: center;
+    position: relative;
+    color: white;
+    padding-block: 7rem;
+}
+
+
+#introduction {
+    position: relative;
+    
+}
+
+#title {
+    font-size: 5rem;
+    line-height: 4rem;
+}
+
+#subtitle {
+    padding-block: 1rem 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#cit {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+#containerhomepage {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+}
+
+
+
+
+
+.boximmaginihomepage {
+    position: relative;
+    flex: 1;
+    padding: 1rem;
+}
+
+.treimmaginihomepage {
+    width: 45rem;
+    height: 30rem;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 3rem;
+    display: inline;
+    padding: 1rem;
+    max-width: 100%;
+}
+
+.homepagebuttondiv {
+    padding-top: 0.5rem;
+    text-align: center;
+}
+
+.linketichette {
+    color: inherit;
+    border-radius: 2rem;
+    text-decoration: none;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    background-color: white;
+    color: black;
+    font-family: 'Inter Tight', arial, sans-serif;
+    font-size: 1.2rem;
+    border: 1px solid black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.linketichette:hover {
+    background-color: rgb(38, 36, 36);
+    color: white;
+}
+
+
+/*PAGINA PHILOSOPHY*/
+
+#bannerphilosophy {
+    font-family: 'Inter Tight', arial, sans-serif;
+    background: url("Immagini/teaseedsnuovo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    color: white;
+    padding-block: 9rem;
+}
+
+#bannerricette {
+    font-family: 'Inter Tight', arial, sans-serif;
+    background: url("Immagini/licheenuovo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    color: white;
+    padding-block: 9rem;
+}
+
+
+#titolophilosophy, #titoloricette {
+   position: relative;
+   font-size: 4.5rem;
+}
+
+#containerphilosophy {
+
+        width: 100%;
+        background: white;
+        padding: 40px 0;
+        margin: auto; /*così il div è centrato*/
+        display: flex;
+}
+
+#containerfotophilosophy {
+    display: grid;
+    padding-left: 2rem;
+    margin: auto;
+    grid-gap: 3rem;
+}
+
+.boximmaginiphilosophy {
+    width: 30rem;
+    height: 30rem;
+    position: relative;
+}
+
+#ryoya, #ryoya1 {
+    width: 30rem;
+    height: 30rem;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 3rem;
+    padding: 1rem;
+    max-width: 100%;   
+}
+
+#filosofia {
+    margin: 2rem 0 2rem 0;
+}
+
+#aboutmetitle {
+    font-size: 3rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    text-align: justify;
+    font-family: 'Inter Tight', arial, sans-serif;
+}
+
+#aboutme {
+    font-size: 1.3rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    text-align: justify;
+    font-family: 'Inter Tight', arial, sans-serif;
+    font-weight: bold;
+}
+
+/*tabella*/
+table {
+    table-layout: fixed;
+    width: 40rem;
+    border: 2px solid black;
+    border-spacing: 2rem;
+    font-family: Inter Tight;
+    margin: auto;
+    text-align: center;
+}
+
+table tr {
+    border-bottom: 1px solid black;
+    font-weight: 600;
+}
+
+.icone {
+    width: 3rem;
+    margin: auto;
+}
+
+#titolotabella {
+    text-align: center;
+    font-family: 'Inter Tight', arial, sans-serif;
+    font-size: 2.5rem;
+}
+
+
+
+
+
+/*PAGINA RICETTE*/
+
+.sezionericette {
+    font-size: 3rem;
+    font-family: 'Inter Tight', arial, sans-serif;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.containerricette {
+    width: 100%;
+    background: white;
+    padding: 40px 0;
+    margin: auto; /*così il div è centrato*/
+    display: flex;
+}
+
+.contenitorevideo {
+    padding: 2rem;
+    margin: auto;
+}
+
+
+iframe {
+    border: 0;
+    border-radius: 1rem;
+    box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.5);
+}
+
+.istruzioniricette {
+    font-size: 1rem;
+    font-weight: 600;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    text-align: justify;
+    font-family: 'Inter Tight', arial, sans-serif;
+    margin: auto;
+}
+
+.istruzioniricette h3 {
+    font-size: 1.5rem;
+}
+
+.istruzioniricette h4 {
+    font-size: 1.3rem;
+}
+
+/*PAGINA CONTATTI E FORM*/
+#sfondocontatti {
+    background-image: url(Immagini/teaseeds.jpg);
+    height: 65rem;
+    width: 100%;
+    background-position: center;
+    background-size: cover; 
+    
+}
+
+#sectioncontatti {
+    opacity: 100%;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    max-width: fit-content;
+}
+
+#form {
+    background-color: rgb(0, 0, 0, 0.85);
+    color: white;
+    font-size: 1.5rem;
+    margin: 5rem;
+    padding: 5rem;
+    font-family: 'Inter Tight', arial, sans-serif;
+    border-radius: 3rem;
+    border: 1px solid black;
+
+}
+#titoloform, #titolosocial {
+    font-size: 2.5rem;
+}
+
+#nome, #cognome, #email {
+    width: 100%;
+    height: 2rem;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+#submitdiv {
+    text-align: center;
+}
+
+#bottoneform {
+    background-color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+    font-family: 'Inter Tight', arial, sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#bottoneform:hover {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+
+}
+
+#fieldsetform {
+    border: 0;
+}
+
+#paginesocial {
+    position: relative;
+    background-color: rgb(0, 0, 0, 0.85);
+    color: white;
+    font-size: 1.5rem;
+    margin: 5rem;
+    padding: 5rem;
+    font-family: 'Inter Tight', arial, sans-serif;
+    border-radius: 3rem;
+    border: 1px solid black;
+    /*opacity: 80%;*/
+}
+
+#iconainstagram {
+    height: auto;
+    width: 3rem;
+}
+
+#iconainstagram:hover {
+    height: auto;
+    width: 4rem;
+}
+
+#iconafacebook {
+    height: auto;
+    width: 2.5rem;
+}
+
+#iconafacebook:hover {
+    height: auto;
+    width: 3.5rem;
+}
+
+#iconayt {
+    height: auto;
+    width: 3rem;
+}
+
+#iconayt:hover {
+    height: auto;
+    width: 4rem;
+}
+
+#iconawebsite {
+    height: auto;
+    width: 2.5rem;
+}
+
+#iconawebsite:hover {
+    height: auto;
+    width: 3.5rem;
+}
+
+.divsocial {
+    display: block;
+}
+
+#iconainstagram, #iconafacebook, #iconayt, #iconawebsite {
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.divsocial {
+    text-align: center;
+}
+
+.linkcontatti {
+    color: white;
+    text-decoration: none;
+}
+
+.linkcontatti:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.linkcontatti:hover {
+    text-decoration: underline;
+}
+
+
+
+/*FOOTER*/
+#footer {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    width: 100%;
+    margin-top: 5rem;
+    height: 15rem;
+    text-align: center;
+}
+
+/*Provo una media query.
+Non viene granché bene, soprattutto la pagina contatti, ma meglio di niente*/
+
+@media screen and (max-width: 800px){
+    #containerhomepage {
+        display: block;
+    }
+ 
+    #navbar {
+        display: block;
+    }
+
+    .linkmenu {
+        display: block;
+    }
+
+    #logo {
+        margin: 1rem; /*altrimenti si attacca al menu*/
+    }
+
+    #containerphilosophy {
+        display: block;
+    }
+
+    .containerricette {
+        display: block;
+    }
+     
+    #sectioncontatti {
+        display: block;
+        padding-block: 1rem;
+    }
+
+    #sfondocontatti {
+        height: auto;
+    }
+
+    #form {
+        min-width: 30rem;
+    }
+    
+
+}
+
+
+

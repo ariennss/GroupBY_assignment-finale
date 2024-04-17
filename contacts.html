@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get in touch</title>
+    <meta name="description" content="Il mio progetto d'esame">
+    <meta name="keywords" content="cuisine, vegan, recipes">
+    <meta name="author" content="Arianna Franchetto">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   
+    <header id="navbar">
+        <div>
+            <a href="homepage.html"><img src="Immagini/logo2.png" alt="Peaceful Cuisine by Ryoya Takashima" title="Peaceful Cuisine by Ryoya Takashima" id="logo" ></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="homepage.html" class="linkmenu" accesskey="a" >HOME</a></li>
+                <li><a href="recipes.html"  class="linkmenu" accesskey="b" >RECIPES</a> </li>
+                <li><a href="philosophy.html"  class="linkmenu" accesskey="c">PHILOSOPHY</a> </li>
+                <li><a href="contacts.html"  class="linkmenu"  id="imhere"  accesskey="d">GET IN TOUCH</a></li>
+            </ul>
+        </nav> 
+    </header>
+   
+
+    <main id="sfondocontatti">
+        <div id="sectioncontatti">
+            
+            <section>
+                <form action="/submit_form" method="post" enctype="text/plain" id="form" name="subcribe">
+                    <h2 id="titoloform">Subscribe to my newsletter:</h2>
+                    <br>
+                    <fieldset id="fieldsetform">
+                        <label for="nome">Name:</label><br>
+                        <input type="text" id="nome" name="nome" placeholder=" Enter your name here"  required><br>
+                        <br>
+                        <label for="cognome">Surname:</label><br>
+                        <input type="text" id="cognome" name="cognome" placeholder=" Enter your surname here"  required><br>
+                    </fieldset>
+                    <br>
+                        <label for="email">E-mail:</label><br>
+                        <input type="email" id="email" name="email" placeholder=" Enter your e-mail address here" required><br><br>
+                    <br>
+                    <hr>
+                    <br>
+                    <p>Which recipes are you most interested in?</p> <br>
+                    <input type="checkbox" id="ricette1" name="ricette1" value="Desserts" >
+                    <label for="ricette1"> Desserts</label><br>
+                    <input type="checkbox" id="ricette2" name="ricette2" value="Maindishes" >
+                    <label for="ricette2"> Main dishes</label><br>
+                    <input type="checkbox" id="ricette3" name="ricette3" value="Drinks" >
+                    <label for="ricette3"> Drinks </label><br><br>
+                    <br>
+                    <div id="submitdiv">
+                        <input type="submit" value="SUBMIT" id="bottoneform" accesskey="h">
+                    </div>
+                    <br>
+                </form>
+            </section>
+
+            <!--So che i link seguenti dovrebbero rispettare i classici colori blu e viola. Li ho eliminati per evitare il basso contrasto con lo sfondo scuro. -->
+            <aside id="paginesocial">
+                <h2 id="titolosocial">Follow me on:</h2>
+                <br><br>
+                <div class="divsocial">
+                    <a href="https://www.instagram.com/peaceful_cuisine" class="linkcontatti" accesskey="l"><img src="Immagini/igicona3.png" alt="iconainstagram" title="iconainstagram" id="iconainstagram"></a>
+                    <p><a href="https://www.instagram.com/peaceful_cuisine" class="linkcontatti" accesskey="m">@peaceful_cuisine</a></p>
+                </div>
+                <br><br>
+                <div class="divsocial">
+                    <a href="https://www.facebook.com/peacefulcuisine.ryoya" class="linkcontatti" accesskey="n"><img src="Immagini/fbicona3.png" alt="iconafacebook" title="iconafacebook" id="iconafacebook"></a>
+                    <p><a href="https://www.facebook.com/peacefulcuisine.ryoya" class="linkcontatti" accesskey="o">Peaceful Cuisine</a></p>
+                </div>
+                <br><br>
+                <div class="divsocial">
+                    <a href="https://www.youtube.com/@peacefulcuisine" class="linkcontatti" accesskey="p"><img src="Immagini/yticona.png" alt="iconayt" title="iconayt" id="iconayt"></a>
+                    <p><a href="https://www.youtube.com/@peacefulcuisine" class="linkcontatti" accesskey="q">Peaceful Cuisine</a></p>
+                </div>
+                <br><br>
+                <div class="divsocial">
+                    <a href="https://peacefulcuisine.com/" class="linkcontatti" accesskey="v"><img src="Immagini/website2.png" alt="iconawebsite" title="iconawebsite" id="iconawebsite"></a>
+                    <p><a href="https://peacefulcuisine.com/" class="linkcontatti" accesskey="z">peacefulcuisine.com</a></p>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer id="footer">
+        <br><br>
+        <p>©Arianna Franchetto</p><br>
+        <p>Tutte le foto utilizzate sono di proprietà di Ryoya Takashima stesso o prese da Pinterest.</p>
+        <p>Il logo è invece frutto della mia immaginazione.</p>
+        <p>L'impostazione del sito è liberamente ispirata al vero sito Peaceful Cuisine consultabile al link: <a href="https://peacefulcuisine.com/">Peaceful Cuisine.</a></p>
+        <br><br>
+    </footer>
+
+</body>
+</html>
